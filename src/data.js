@@ -8,14 +8,14 @@ import {
     Nextjs2,
     Nodejs,
     Reactjs,
-    form,
+    admin,
     food,
     food1,
     port1,
     port2,
     port3,
     social,
-    admin,
+    
   } from "./assets";
   
   export const projectStats = [
