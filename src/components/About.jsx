@@ -9,7 +9,7 @@ const About = () => {
     <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 lg:gap-20 lg:py-20 ">
       <div className="w-full md:h-[290px] lg:w-1/3 flex flex-col items-center border border-gray-500 dark:bg-transparent rounded-md">
         <img
-          src={Profile}
+         alt="profile" src={Profile}
           className="h-[290px] p-1 rounded-md ease-in-out duration-300 hover:scale-125"
         />
       </div>
