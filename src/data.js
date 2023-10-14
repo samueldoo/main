@@ -159,5 +159,3 @@ import {
     "Problem solving",
     "Open-mindedness",
   ];
-  
-  
