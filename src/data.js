@@ -106,7 +106,7 @@ import {
     {
       id: 2,
       title: "Portfolio Website",
-      cat: "Web Design",
+      cat: "",
       url: "",
       img: port1,
     },

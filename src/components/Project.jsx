@@ -30,7 +30,7 @@ const Project = () => {
       >
         {tools.map((t, index) => (
           <div className='flex gap-2 items-center bg-white rounded-md shadow-lg px-5 py-1 '>
-            <img src={t.icon} className='w-10 h-10' />
+            <img src={t.icon} alt="" className='w-10 h-10' />
             <p className=' text-black text-md'>{t.name}</p>
           </div>
         ))}
