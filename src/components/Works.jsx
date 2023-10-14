@@ -30,7 +30,7 @@ const Works = () => {
                 {p.title}
               </h4>
               <p className='text-sm text-orange-600 px-1 uppercase'>{p.cat}</p>
-              <a href="https://addto-cart-samueldoo.vercel.app"><p className='text-sm text-orange-600 px-1 uppercase'>{p.url}</p></a>
+              <a href={p.url}><p className='text-sm text-orange-600 px-1 uppercase'>{p.title}</p></a>
             </div>
           </div>
         ))}

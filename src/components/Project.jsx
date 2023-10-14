@@ -14,7 +14,7 @@ const Project = () => {
       >
         {projectStats.map((p, index) => (
           <div className='flex flex-col gap-2 items-center px-4 py-3 bg-[#000000] rounded-md'>
-            <p className='text-white text-2xl font-bold'>{p.value}</p>
+            <p className='text-white text-2xl--- font-bold'>{p.value}</p>
             <p className='text-white text-sm'>{p.name}</p>
           </div>
         ))}
