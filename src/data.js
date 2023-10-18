@@ -98,16 +98,16 @@ import {
   export const projects = [
     {
       id: 1,
-      title: "form",
-      cat: "Form validation",
-      url: "https://form-validation-project-one.vercel.app",
+      title: "Google map Website",
+      cat: "map",
+      url: "https://mapmingle.vercel.app",
       img: admin,
     },
     {
       id: 2,
-      title: "Portfolio Website",
-      cat: "",
-      url: "",
+      title: "Timetemp Website",
+      cat: "Weather",
+      url: "https://timetempupdate.vercel.app",
       img: port1,
     },
     {
@@ -119,16 +119,16 @@ import {
     },
     {
       id: 4,
-      title: "Timetemp Website",
-      cat: "Weather",
-      url: "https://timetempupdate.vercel.app",
+      title: "form",
+      cat: "Form validation",
+      url: "https://form-validation-project-one.vercel.app",
       img: port3,
     },
     {
       id: 5,
-      title: "Google map Website",
-      cat: "Portfolio",
-      url: "https://mapmingle.vercel.app",
+      title: "Portfolio Website",
+      cat: "",
+      url: "",
       img: food,
     },
     {
