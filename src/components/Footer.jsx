@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillTwitterCircle } from "react-icons/ai";
+import { SiX } from "react-icons/si";
 import { BsFacebook, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/Samueldoo2?mibextid=LQQJ4d"><BsFacebook className='hover:scale-125' /></a>
           <a href="/"><BsInstagram className='hover:scale-125' /></a>
           <a href="https://www.linkedin.com/in/alademehinsamuel/"><BsLinkedin className='hover:scale-110' /></a>
-          <a href="https://twitter.com/Sammiidoo"><AiFillTwitterCircle className='hover:scale-125' /></a>
+          <a href="https://twitter.com/Sammiidoo"><SiX className='hover:scale-125' /></a>
         </div>
 
         <p className='text-gray-400 text-md tracking-wider'>@2023 SamuelDoo</p>
