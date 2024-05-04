@@ -8,24 +8,28 @@ import {
     Nextjs2,
     Nodejs,
     Reactjs,
-    admin,
-    food,
+    map,
+    main,
     food1,
-    port1,
-    port2,
-    port3,
+    rage,
+    ctSkill,
+    weather,
+    cart,
+    form,
     social,
+    kings,
+    Tailwindcss,
     
   } from "./assets";
   
   export const projectStats = [
     {
       name: "Total Projects",
-      value: "20+",
+      value: "40+",
     },
     {
       name: "Website Design",
-      value: "10+",
+      value: "20+",
     },
     {
       name: "Clients worldwide",
@@ -37,6 +41,10 @@ import {
     {
       name: "MongoDB",
       icon: Mongodb,
+    },
+    {
+      name: "Tailwindcss",
+      icon: Tailwindcss,
     },
     {
       name: "Express",
@@ -63,6 +71,11 @@ import {
       icon: Reactjs,
     },
     {
+      name: "Tailwindcss",
+      value: 90,
+      icon: Tailwindcss,
+    },
+    {
       name: "NodeJs",
       value: 86,
       icon: Nodejs,
@@ -79,7 +92,7 @@ import {
     },
     {
       name: "CSS3",
-      value: 75,
+      value: 85,
       icon: CSS3,
     },
     {
@@ -89,7 +102,7 @@ import {
     },
     {
       name: "JavaScript",
-      value: 68,
+      value: 76,
       icon: Javascript,
     },
     
@@ -98,48 +111,69 @@ import {
   export const projects = [
     {
       id: 1,
-      title: "Google map Website",
-      cat: "map",
-      url: "https://mapmingle.vercel.app",
-      img: admin,
+      title: "Kings Invoices",
+      cat: "Invoice", 
+      url: "https://kingsinvoices.vercel.app/",
+      img: kings,
     },
     {
       id: 2,
-      title: "Timetemp Website",
-      cat: "Weather",
-      url: "https://timetempupdate.vercel.app",
-      img: port1,
+      title: "Google map Website",
+      cat: "map",
+      url: "https://mapmingle.vercel.app",
+      img: map,
     },
     {
       id: 3,
-      title: "Add to cart",
-      cat: "cart web",
-      url: "https://addto-cart-samueldoo.vercel.app",
-      img: port2,
+      title: "Rage",
+      cat: "web app", 
+      url: "https://rage-pro.vercel.app/",
+      img: rage,
     },
     {
       id: 4,
-      title: "form",
-      cat: "Form validation",
-      url: "https://form-validation-project-one.vercel.app",
-      img: port3,
+      title: "Timetemp Website",
+      cat: "Weather",
+      url: "https://timetempupdate.vercel.app",
+      img: weather,
     },
     {
       id: 5,
-      title: "Portfolio Website",
-      cat: "",
-      url: "",
-      img: food,
+      title: "form",
+      cat: "Form validation",
+      url: "https://form-validation-project-one.vercel.app",
+      img: form,
     },
     {
       id: 6,
+      title: "Add to cart",
+      cat: "cart web",
+      url: "https://addto-cart-samueldoo.vercel.app",
+      img: cart,
+    },
+    {
+      id: 7,
+      title: "Mountain",
+      cat: "web app", 
+      url: "https://ctskilltest.vercel.app/",
+      img: ctSkill,
+    },
+    {
+      id: 8,
+      title: "Portfolio Website",
+      cat: "",
+      url: "",
+      img: main,
+    },
+    {
+      id: 9,
       title: "Social Media",
       cat: "Web App",
       url: "",
       img: social,
     },
     {
-      id: 7,
+      id: 10,
       title: "Eat Well App",
       cat: "Mobile App",
       url: "",

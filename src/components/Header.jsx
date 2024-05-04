@@ -1,5 +1,5 @@
 import React from "react";
-import { Mongodb, Nodejs, Profile, Reactjs, Redux } from "../assets";
+import { Mongodb, Nodejs, Profile, Reactjs, Redux, Tailwindcss } from "../assets";
 const Header = () => {
   return (
     <div className='w-full flex flex-col lg:flex-row px-4 md:px-10 gap-10 2xl:gap-20 py-20'>

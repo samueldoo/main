@@ -9,7 +9,7 @@ const Works = () => {
       </h4>
 
       <div className='flex flex-wrap gap-10 lg:gap-20 justify-center '>
-        {projects.map((p, index) => (
+        {projects?.map((p, index) => (
           <div
             data-aos='fade-up'
             data-aos-offset='200'

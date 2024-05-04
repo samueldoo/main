@@ -35,7 +35,7 @@ const Footer = () => {
           <a href="https://twitter.com/Sammiidoo"><SiX className='hover:scale-125' /></a>
         </div>
 
-        <p className='text-gray-400 text-md tracking-wider'>@2023 SamuelDoo</p>
+        <p className='text-gray-400 text-md tracking-wider'>@2024 SamuelDoo</p>
       </div>
     </footer>
   );
